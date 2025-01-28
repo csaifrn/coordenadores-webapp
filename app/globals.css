@@ -70,3 +70,18 @@ body {
     @apply bg-background text-foreground;
   }
 }
+.container {
+  display: flex;
+  justify-content: center;  
+  align-items: center;     
+  height: 100vh;            
+  text-align: center;  
+  margin-top: -275px
+}
+
+.auth-button {
+  padding: 10px 20px;   
+  font-size: 16px;       
+  cursor: pointer;  
+  @apply bg-green-700 text-white hover:bg-blue-700;
+}    
